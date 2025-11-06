@@ -1,0 +1,7 @@
+{
+  "name": "Jalhica: Assistente Pessoal",
+  "description": "Uma interface de conversação direta com sua assistente de IA, Jalhica. Controle tudo com sua voz.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

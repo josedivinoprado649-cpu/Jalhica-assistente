@@ -1,0 +1,23 @@
+{
+  "name": "Jalhica: Assistente Pessoal",
+  "short_name": "Jalhica",
+  "description": "Sua assistente pessoal dedicada, José Divino Prado. Equipada com Gemini para conversas, cálculos, gerenciamento de estoque e muito mais.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxyZWN0IHdpZHRoPSIyNCIgaGVpZHRoPSIyNCIgZmlsbD0iIzI1NjNlYiIgLz48ZyBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgOFY0SDgiIC8+PHJlY3Qgd2lkdGg9IjE2IiBoZWlnaHQ9IjEyIiB4PSI0IiB5PSI4IiByeD0iMiIgLz48cGF0aCBkPSJNMCAxNGgyIiAvPjxwYXRoIGQ9Ik0yMCAxNGgyIiAvPjxwYXRoIGQ9Ik0xNSAxM3YyIiAvPjxwYXRoIGQ9Ik05IDEzdjIiIC8+PC9nPjwvc3ZnPg==",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxyZWN0IHdpZHRoPSIyNCIgaGVpZHRoPSIyNCIgZmlsbD0iIzI1NjNlYiIgLz48ZyBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTIgOFY0SDgiIC8+PHJlY3Qgd2lkdGg9IjE2IiBoZWlnaHQ9IjEyIiB4PSI0IiB5PSI4IiByeD0iMiIgLz48cGF0aCBkPSJNMCAxNGgyIiAvPjxwYXRoIGQ9Ik0yMCAxNGgyIiAvPjxwYXRoIGQ9Ik0xNSAxM3YyIiAvPjxwYXRoIGQ9Ik05IDEzdjIiIC8+PC9nPjwvc3ZnPg==",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
