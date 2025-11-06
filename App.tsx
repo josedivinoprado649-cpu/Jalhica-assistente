@@ -1,8 +1,8 @@
 import React from 'react';
-// CORREÇÃO FINAL: O arquivo VoiceAssistant.tsx está na raiz do projeto, 
-// não dentro de uma subpasta VoiceAssistant.
+// CORREÇÃO: Coloca o VoiceAssistant na raiz, como o seu 'ls' mostrou.
 import VoiceAssistant from './VoiceAssistant.tsx'; 
-import { JalhicaLogoIcon } from './components/icons';
+// CORREÇÃO: Assumindo que a pasta 'components' existe na raiz e contém 'icons'.
+import { JalhicaLogoIcon } from './components/icons'; 
 
 const App: React.FC = () => {
   return (
@@ -23,7 +23,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
-
-
-
