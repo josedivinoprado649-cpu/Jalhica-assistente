@@ -1,7 +1,7 @@
 import React from 'react';
-// CORREÇÃO FINAL: Usando o caminho mais robusto, que inclui a subpasta VoiceAssistant e a extensão .tsx,
-// o que resolve o problema de resolução de caminho no Vercel (ambiente Linux/case-sensitive).
-import VoiceAssistant from './components/VoiceAssistant/VoiceAssistant.tsx';
+// CORREÇÃO FINAL: O arquivo VoiceAssistant.tsx está na raiz do projeto, 
+// não dentro de uma subpasta VoiceAssistant.
+import VoiceAssistant from './VoiceAssistant.tsx'; 
 import { JalhicaLogoIcon } from './components/icons';
 
 const App: React.FC = () => {
@@ -23,6 +23,7 @@ const App: React.FC = () => {
 };
 
 export default App;
+
 
 
 
