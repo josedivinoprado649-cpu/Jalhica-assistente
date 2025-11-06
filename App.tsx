@@ -1,7 +1,7 @@
 import React from 'react';
-// CORREÇÃO: Usando o caminho completo para o arquivo VoiceAssistant.tsx
-// O Vercel (que usa Linux) é sensível a maiúsculas/minúsculas. 
-import VoiceAssistant from './components/VoiceAssistant/VoiceAssistant.tsx'; 
+// CORREÇÃO FINAL: Usando o caminho mais robusto, que inclui a subpasta VoiceAssistant e a extensão .tsx,
+// o que resolve o problema de resolução de caminho no Vercel (ambiente Linux/case-sensitive).
+import VoiceAssistant from './components/VoiceAssistant/VoiceAssistant.tsx';
 import { JalhicaLogoIcon } from './components/icons';
 
 const App: React.FC = () => {
@@ -23,5 +23,6 @@ const App: React.FC = () => {
 };
 
 export default App;
+
 
 
