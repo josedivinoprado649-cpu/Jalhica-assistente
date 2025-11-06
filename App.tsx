@@ -1,6 +1,7 @@
 import React from 'react';
-// CORREÇÃO: Usando o caminho mais explícito (assumindo que o arquivo está na raiz da pasta components)
-import VoiceAssistant from './components/VoiceAssistant.tsx'; 
+// CORREÇÃO: Usando o caminho completo para o arquivo VoiceAssistant.tsx
+// O Vercel (que usa Linux) é sensível a maiúsculas/minúsculas. 
+import VoiceAssistant from './components/VoiceAssistant/VoiceAssistant.tsx'; 
 import { JalhicaLogoIcon } from './components/icons';
 
 const App: React.FC = () => {
@@ -22,3 +23,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+
