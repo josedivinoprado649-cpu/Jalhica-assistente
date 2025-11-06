@@ -1,8 +1,9 @@
 import React from 'react';
-// CORREÇÃO: Coloca o VoiceAssistant na raiz, como o seu 'ls' mostrou.
-import VoiceAssistant from './VoiceAssistant.tsx'; 
-// CORREÇÃO: Assumindo que a pasta 'components' existe na raiz e contém 'icons'.
-import { JalhicaLogoIcon } from './components/icons'; 
+// CORREÇÃO: Importação para VoiceAssistant que agora está na pasta 'components' 
+// que está no nível acima de 'src' (../components)
+import VoiceAssistant from '../components/VoiceAssistant.tsx'; 
+// CORREÇÃO: Importação do ícone também ajustada para o nível acima
+import { JalhicaLogoIcon } from '../components/icons'; 
 
 const App: React.FC = () => {
   return (
@@ -23,3 +24,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+
