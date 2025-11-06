@@ -1,6 +1,6 @@
 import React from 'react';
-// Fix: Corrected import path for VoiceAssistant
-import VoiceAssistant from './components/VoiceAssistant';
+// CORREÇÃO: Usando o caminho mais explícito (assumindo que o arquivo está na raiz da pasta components)
+import VoiceAssistant from './components/VoiceAssistant.tsx'; 
 import { JalhicaLogoIcon } from './components/icons';
 
 const App: React.FC = () => {
